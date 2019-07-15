@@ -9,7 +9,7 @@
 <br>
 
 ## Introduction
-[![React-Native](https://img.shields.io/badge/React-Native%0.60.3-green.svg?style=rounded-square)](https://facebook.github.io/react-native/)
+[![React-Native](https://img.shields.io/badge/React Native-0.60.3-green.svg?style=rounded-square)](https://facebook.github.io/react-native/)
 [![Redux](https://img.shields.io/badge/Redux-16.8.6-blue.svg?style=rounded-square)](https://redux.js.org/)
 
 This is my repository for training management state in react native
