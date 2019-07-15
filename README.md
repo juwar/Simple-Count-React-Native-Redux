@@ -9,8 +9,8 @@
 <br>
 
 ## Introduction
-[![React Native](https://img.shields.io/badge/Express%20-4.17.1-blue.svg?style=rounded-square)](https://expressjs.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-v.11.15-green.svg?style=rounded-square)](https://nodejs.org/)
+[![React Native](https://img.shields.io/badge/React-16.8.6-blue.svg?style=rounded-square)](https://expressjs.com/)
+[![Node.js](https://img.shields.io/badge/React-Native-0.60.3-green.svg?style=rounded-square)](https://nodejs.org/)
 
 This is my repository for training management state in react native
 
