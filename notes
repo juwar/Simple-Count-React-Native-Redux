@@ -1,0 +1,82 @@
+RestFull API merupakan implementasi dari API, API adalalah antarmuka yang berisi kumpulan fungsi yang dapat dipanggil / dijalankan program lain
+Node.js adalah perangkat lunak yang didesain untuk mengembangkan aplikasi berbasis web dan ditulis dalam sintaks bahasa pemrograman javascript
+Express js adalah framwork pada node js
+ENV => Environment Variable merupakan variabel dinamis pada komputer yang dapat diakses oleh sebuah program, berfungsi untuk kemanan data login  database
+CORS adalah metode perizinan pada sebuah origin untuk memberikan akses resource kepada origin lain
+Middleware adalah sebuah fungsi yang terletak diantara request dan respon, body-parser termasuk middleware karena menangani req.body sebelum request di tangani atau di respon
+Pagination merupakan teknik menampilkan data dalam beberapa halaman yang berbeda, berfungsi agar menampilkan data yang ebih ringkas dan meringankan dalam load data
+Controller berfungsi sebagai penerapan logika dan pengolahan data
+
+React Navigation => Berpindah halaman
+Props => seuatu yang di parsing dari parent ke child 
+Native Base => untuk membuat tampilan
+Cari flexboxx css
+
+
+Tutorial init React Native
+=> init react native
+react-native init <project name>
+=> masuk folder project !
+
+=> instal native Base
+npm install native-base --save
+=> isntal peer depencies
+react-native link
+
+=> react navigation
+npm install --save react-navigation
+=> react native gestur handler
+npm install --save react-native-gesture-handler
+=> link all native depencies
+react-native link react-native-gesture-handler
+
+mofification in MainActivity.java
+package com.reactnavigation.example;
+===>
+import com.facebook.react.ReactActivity;
++ import com.facebook.react.ReactActivityDelegate;
++ import com.facebook.react.ReactRootView;
++ import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
+
+public class MainActivity extends ReactActivity {
+
+  @Override
+  protected String getMainComponentName() {
+    return "Example";
+  }
+
++  @Override
++  protected ReactActivityDelegate createReactActivityDelegate() {
++    return new ReactActivityDelegate(this, getMainComponentName()) {
++      @Override
++      protected ReactRootView createRootView() {
++       return new RNGestureHandlerEnabledRootView(MainActivity.this);
++      }
++    };
++  }
+}
+
+React Nativ =>
+Framework berbasis javascript yang bisa kita gunakan untuk membuat aplikasi mobile untuk Android dan iOS sekaligus.
+React.js itu library javascript yang di buat oleh Facebook. Gunanya apa ? simplenya gunanya itu untuk membantu developer membuat User Interface (Ui) pada aplikasi mobile. React juga bersifat closs platform bisa untuk membuat ui android dan ios
+
+Tapi kalau ditanya kenapa memilih React Native? Jawabannya sederhana:
+  -> Javascript (Sehingga kesulitan mencari programmer akan teratasi)
+  -> One code base to Android and Java (memghemat waktu dan sumber daya)
+  -> Popular (mudah untuk mencari jalan keluar atau ketika membutuhkan fitur-fitur yang di perlukan)
+
+State vs Props
+-State adalah data private sebuah component, hanya tersedia untuk component tersebut dan tidak bisa di akses dari component lain
+-Prop ini adalah parameter (functional component) || Prop merupakan property dari class nya yang di akses melalui keyword 'this' (class component), untuk komunikasi data component dari parent komponent ke child component
+
+Gunakan props untuk komunikasi data antar komponent ( parent to child component )
+Gunakan state untuk komunikasi data internal, hanya dalam component itu sendiri
+
+
+throttel debounce => limit time on get (like set interval)
+lodash 
+
+redux-persist => menyimpan data secara offline (redux)
+AsyncStorage like redux-persist
+
+promise => perintah yang butuh waktu
