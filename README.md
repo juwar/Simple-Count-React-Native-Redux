@@ -15,7 +15,7 @@
 This is my repository for training management state in react native
 
 ## How to run the app ?
-1. Clone this repository with `git clone https://github.com/juwar/rest-full-api-bhineka`
+1. Clone this repository with `git clone https://github.com/juwar/Simple-Count-React-Native-Redux`
 2. Go to the project folder clone
 3. Open the terminal or cmd and type `npm i`
 4. And the lest type in terminal or cmd `react-native run-ios` for ios and ``react-native run-android` to run project API
